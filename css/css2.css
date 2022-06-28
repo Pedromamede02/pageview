@@ -1,0 +1,174 @@
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-color: gray;
+                }
+                
+                .header-top {
+                    height: 50px;
+                    background: #020202;
+                    position: relative;
+                    margin: 0;
+                }
+                
+                .header-nav {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 50px;
+                    background: rgb(0, 0, 0);
+                }
+                
+                .header-nav ul {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .header-nav li {
+                    list-style: none;
+                    display: inline-block;
+                    padding: 13px;
+                }
+                
+                .header-nav a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    letter-spacing: 5px;
+                    transition: color .3s linear;
+                }
+                
+                .header-nav a:hover {
+                    color: rgb(192, 192, 192);
+                }
+                
+                footer {
+                    background-color: black;
+                    margin: 0;
+                    
+                    width: 100%;
+                    padding-top: 9px;
+                }
+                
+                .copyfoot {
+                    color: white;
+                    font-size: 15px;
+                }
+                
+                .Social img{
+                    max-width: 40px;
+                    width: 70%;
+                    height: 70%;
+                }
+                
+                .Social a img:hover {
+                    transition: 0.5s;
+                    border-color: rgb(255, 255, 255);
+                    transform: translateY(-20px);
+                }
+                
+                .Social {
+                   
+                    filter: invert();
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+                
+                .p {
+                    color: blanchedalmond;
+                    font-size: 90px;
+                }
+                
+                .Social2 a img {
+                    width: 40%;
+                    height: 40%;
+                }
+                
+                .Social2 a img:hover {
+                    border-style: solid;
+                    border-width: 5px;
+                    border-color: gray;
+                    border-radius: 20%;
+                }
+                
+                .Social2 {
+                    width: 5%;
+                    height: 5%;
+                    filter: invert();
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+                
+                @media (max-width: 600px) {
+                    .p {
+                        color: blanchedalmond;
+                        font-size: 30px;
+                    }
+                    iframe {
+                        width: 300px;
+                        height: 300px;
+                    }
+                }
+                
+                @media (max-width: 1085px) {
+                    .p {
+                        color: blanchedalmond;
+                        font-size: 90px;
+                    }
+                }
+                
+                @media (max-width: 500px) {
+                    .p {
+                        color: blanchedalmond;
+                        font-size: 30px;
+                    }
+                    .Social2 a img {
+                        width: 40%;
+                        height: 40%;
+                    }
+                    .Social {
+                        width: 10%;
+                        height: 10%;
+                        filter: invert();
+                        display: inline-block;
+                        margin-left: 10px;
+                    }
+                    .Social2 {
+                        width: 10%;
+                        height: 10%;
+                        filter: invert();
+                        display: inline-block;
+                        margin-left: 10px;
+                    }
+                }
+                
+                @media (max-width: 300px) {
+                    .p {
+                        color: blanchedalmond;
+                        font-size: 10px;
+                    }
+                    iframe {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+
+
+                #Formulario{
+                    width: 100%;
+                    background-color: gray;
+                    justify-content: center;
+                    align-items: center;
+                    color: aliceblue;
+                }
+                #Formulario input{
+                    padding: 1%;
+                    width: 320px;
+                    height: 30px;
+                }
+                #Formulario button{
+                    width: 10%;
+                    height: 5%;
+                    margin-bottom: 1%;
+                }
